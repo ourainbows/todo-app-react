@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+  background-image: linear-gradient(
+    to right bottom,
+    #0c0a20,
+    #0b0a1e,
+    #0b091c,
+    #0a091b,
+    #090819
+  );
+  color: #e4e4e4;
+}

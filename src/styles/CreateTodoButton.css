@@ -1,0 +1,28 @@
+.create--todo{
+    position: absolute;
+    z-index: 1;
+
+    right: 10px;
+    bottom: 10px;
+    height: 50px;
+    width: 50px;
+
+    border-radius: 50%;
+    border: none;
+    color: #0C0A20;
+    background-color: aqua;
+
+    font-weight: bold;
+    font-size: 2.0rem;
+}
+.create--todo:hover{
+    background-color: rgb(33, 175, 175);
+    
+}
+.creating--todo{
+    background-color: #F74746;
+    transform: rotate(224deg);
+}
+.creating--todo:hover{
+    background-color:#c42f2f ;
+}

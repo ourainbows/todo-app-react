@@ -1,0 +1,45 @@
+form {
+  display: flex;
+  flex-direction: column;
+
+  height: 30%;
+  width: 70%;
+  padding: 10px;
+
+  border-radius: 5px;
+}
+form textarea {
+  height: 70%;
+  width: 96%;
+  margin: auto;
+
+  resize: none;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+form div {
+  height: 20%;
+}
+button {
+  height: 100%;
+  width: 48%;
+  margin: 0 1%;
+
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.form--submit {
+  background-color: rgb(25, 182, 255);
+  font-weight: bold;
+}
+.form--submit:hover {
+  background-color: rgb(14, 135, 190);
+  font-weight: bold;
+}
+.form--cancel {
+  background-color: #f74746;
+}
+.form--cancel:hover {
+  background-color: #ff2525;
+}

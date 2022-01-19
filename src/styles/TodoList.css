@@ -1,0 +1,22 @@
+.list {
+  display: flex;
+  justify-content: center;
+}
+.list--cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  padding: 0;
+  width: 80%;
+  margin: 40px 0 0 0;
+}
+div {
+  text-align: center;
+}
+h3 {
+  color: white;
+  text-align: center;
+  display: inline;
+  font-size: 50px;
+}

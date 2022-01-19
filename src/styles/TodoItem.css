@@ -1,0 +1,33 @@
+.item{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    margin-bottom: 24px;
+}
+.item--check{
+    margin: 0 10px 0 5px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.item--check:hover{
+    cursor: pointer;
+    color: chartreuse;
+}
+.item--delete{
+    position: absolute;
+    bottom: 25%;
+    right: 5%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.item--delete:hover{
+    cursor: pointer;
+    color: red;
+}
+.check--active{
+    color: green;
+}
+.item--p__completed{
+    text-decoration: line-through;
+}
