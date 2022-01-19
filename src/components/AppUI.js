@@ -26,7 +26,7 @@ function AppUI() {
                 {loading && <div>
                     <h3 className='loading-1'>. . .</h3>
                 </div>}
-                {(!loading && !searchedTodos.length) && <h3>¡Crea tu primer Todo <br></br>pulsando el boton de <br>+</br>!</h3>}
+                {(!loading && !searchedTodos.length) && <h3>¡Crea tu primer Todo <br></br>pulsando el boton de <b>+</b> !</h3>}
                 {searchedTodos.map(todo => (
                     <TodoItem
                         key={todo.text}
